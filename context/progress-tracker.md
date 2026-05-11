@@ -14,10 +14,11 @@ Update this file whenever the current phase, active feature, or implementation s
 
 - Boilerplate cleanup (stripped globals.css, removed SVGs, replaced page.tsx with minimal shell)
 - 01-design-system: shadcn/ui initialized (Nova preset / Radix), dark theme CSS tokens wired in globals.css, Button + Card + Dialog + Input + Tabs + Textarea + ScrollArea installed, lucide-react installed, cn() helper in lib/utils.ts, layout dark class applied
+- 02-editor: `components/editor/editor-navbar.tsx` — fixed-height top navbar with sidebar toggle (PanelLeftOpen/PanelLeftClose); `components/editor/project-sidebar.tsx` — floating overlay sidebar with Tabs (My Projects / Shared), empty states, and full-width New Project button
 
 ## In Progress
 
-- None yet.
+- None.
 
 ## Next Up
 
